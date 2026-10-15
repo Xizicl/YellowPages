@@ -1,0 +1,25 @@
+[project]
+name = "server"
+version = "0.1.0"
+description = "YellowPages API and Management Server"
+readme = "README.md"
+authors = [
+    { name = "YellowPages Contributors" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "aiosqlite>=0.22.1",
+    "fastapi>=0.115.0",
+    "pydantic>=2.8.0",
+    "python-multipart>=0.0.32",
+    "uvicorn[standard]>=0.30.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "httpx2>=2.13.1",
+]

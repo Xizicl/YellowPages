@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-builder
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Python & server
+__pycache__/
+*.py[cod]
+*$py.class
+server/.venv/
+server/venv/
+server/.env
+server/web/node_modules/
+server/web/dist/
+
+# Local databases & logs
+*.sqlite-wal
+*.sqlite-shm
+*.log
+
+# Cortexkit & temporary workspace
+.cortexkit/
